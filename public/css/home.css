@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color:  #53a8b6;
+}
+
+#main-heading{
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    
+  
+}
+
+.display{
+    display: flex;
+    border: 1px solid blue;
+    width: 280px;
+    height: 30px;
+    margin: auto auto;
+    background-color:  #a2a8d3;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+    display: flex;
+    width: 140px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.phone{
+    display: flex;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    display: flex;
+    height: 50px;
+    margin: auto auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    background-color: gainsboro;
+
+}
+
+input{
+
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid; 
+}
+.close{
+    display: flex;
+    margin: auto auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+a{
+    background-color: red;
+    color: white;
+  
+}
+a:hover{
+    background-color: blue;
+}
